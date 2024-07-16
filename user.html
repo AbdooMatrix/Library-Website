@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="left">Library</h1>
+        <form id="search">
+            <input id="searchBar" class="searchbar" type="search" name="searchbar"
+                placeholder="Search for your desired book">
+        </form>
+
+        <div class="right" id="right">
+            <a href="home.html">Home</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>User Dashboard</h1>
+
+        <!-- User Info -->
+        <div class="user-info">
+            <div class="user-details">
+                <h4 id="name"></h4>
+                <p id="username"></p>
+            </div>
+        </div>
+
+        <!-- Book List -->
+        <div class="book-list" id="borrowContainer">
+            <h2>Borrowed Books</h2>
+
+        </div>
+    </main>
+
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/user.js"></script>
+</body>
+
+</html>

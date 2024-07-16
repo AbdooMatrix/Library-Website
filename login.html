@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link rel="stylesheet" href="./styles/login.css">
+</head>
+
+<body>
+  <form name="login" id="login" action="index.html" class="loginForm">
+    <h1>Login Form</h1>
+    <input type="text" name="username" id="username" placeholder="Username" required>
+    <input type="password" name="password" id="password" placeholder="Password" required>
+    <div class="previlege">
+      <div class="radio">
+        <input type="radio" name="previlege" value="admin" id="admin" class="radioButton">
+        <label for="admin">Admin</label>
+      </div>
+      <div class="radio">
+        <input type="radio" name="previlege" value="user" id="user" class="radioButton">
+        <label for="user">User</label>
+      </div>
+    </div>
+    <div>
+      <input type="checkbox" name="rememberPassword" value="true" id="rememberPassword" class="checkbox">
+      <label for="rememberPassword">Remember Your Password (not recommended)</label>
+    </div>
+    <button type="submit" class="loginButton">login</button>
+    <a href="signup.html">Sign Up</a>
+  </form>
+  <script src="scripts/login.js"></script>
+
+</body>
+
+</html>

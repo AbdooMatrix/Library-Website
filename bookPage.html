@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Intro To Algorithm</title>
+  <link rel="stylesheet" href="styles/algoBook.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="left">Library</h1>
+    <form id="search">
+      <input id="searchBar" class="searchbar" type="search" name="searchbar" placeholder="Search for your desired book">
+    </form>
+    <div class="right" id="right">
+      <a href="home.html">Home</a>
+    </div>
+  </nav>
+
+  <main>
+    <section>
+      <div class="title">
+        <h2 id="title">Book Title</h2>
+      </div>
+      <div class="content">
+        <div class="img">
+          <img id="cover-image" src="public/Design_Patterns.jpg" alt="Cover Image">
+        </div>
+        <div class="text">
+          <h4>ISBN:</h4>
+          <p id="isbn">123-4567891234</p>
+          <h4>Authors:</h4>
+          <p id="authors">Author Name</p>
+          <h4>Genre:</h4>
+          <p id="genre">Genre</p>
+          <h4>Publication Year:</h4>
+          <p id="publicationYear">2024</p>
+          <h4>Description:</h4>
+          <p id="description">This is a description of the book.</p>
+          <div class="editButtons">
+            <button>Borrow</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/bookPage.js"></script>
+</body>
+</html>

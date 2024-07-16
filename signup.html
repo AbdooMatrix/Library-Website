@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="./styles/signup.css">
+</head>
+
+<body>
+  <form id="signup" action="index.html" class="signupForm">
+    <h1>Sign up Form</h1>
+    <input type="text" name="firstname" id="firstname" required placeholder="First Name">
+    <input type="text" name="lastname" id="lastname" required placeholder="Last Name">
+    <input type="tel" id="phone" name="phone" required placeholder="Phone Number">
+    <input type="email" name="email" id="email" required placeholder="Email Address">
+    <input type="text" name="username" id="username" required placeholder="Username">
+    <input type="password" name="password" id="password" required placeholder="Password">
+    <input type="password" name="repassword" id="repassword" required placeholder="Confirm Password">
+    <div class="previlege">
+      <div class="radio">
+        <input type="radio" name="previlege" id="admin" class="radioButton" value="admin">
+        <label for="admin">Admin</label>
+      </div>
+      <div class="radio">
+        <input type="radio" name="previlege" id="user" class="radioButton" value="user">
+        <label for="user">User</label>
+      </div>
+    </div>
+    <button type="submit" class="signupbutton">Sign up</button>
+  </form>
+  <script src="./scripts/signup.js"></script>
+</body>
+
+</html>
